@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Studio | Dijital Çözümler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="logo">Nova Studio</div>
+        <a class="cta cta-small" href="#iletisim">İletişim</a>
+      </nav>
+
+      <div class="container hero-content">
+        <p class="badge">Yeni nesil web tasarım</p>
+        <h1>Markanı güçlü gösteren modern bir site</h1>
+        <p class="subtitle">
+          Hızlı, mobil uyumlu ve dönüşüm odaklı web deneyimleri tasarlıyoruz.
+          Dakikalar içinde teklif al, bugün yayına çıkalım.
+        </p>
+        <div class="hero-buttons">
+          <a class="cta" href="#hizmetler">Hizmetleri Keşfet</a>
+          <a class="ghost" href="#ornekler">Örnek İşler</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="hizmetler" class="section container">
+        <h2>Hizmetler</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Kurumsal Web Sitesi</h3>
+            <p>
+              Şirketini profesyonel anlatan, SEO dostu ve güven veren bir yapı.
+            </p>
+          </article>
+          <article class="card">
+            <h3>E-ticaret</h3>
+            <p>
+              Ürünlerini kolayca satabileceğin, hızlı ödeme akışına sahip mağaza.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Landing Page</h3>
+            <p>
+              Reklam trafiğini müşteriye dönüştüren odaklı ve sade sayfalar.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="ornekler" class="section section-dark">
+        <div class="container">
+          <h2>Rakamlarla Güven</h2>
+          <div class="stats">
+            <div>
+              <strong>120+</strong>
+              <span>Teslim edilen proje</span>
+            </div>
+            <div>
+              <strong>%98</strong>
+              <span>Müşteri memnuniyeti</span>
+            </div>
+            <div>
+              <strong>7/24</strong>
+              <span>Teknik destek</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="iletisim" class="section container contact">
+        <h2>Hemen Başlayalım</h2>
+        <p>
+          E-posta adresini bırak, sana özel bir yol haritası ve fiyatlandırma
+          gönderelim.
+        </p>
+        <form id="contact-form">
+          <input
+            type="email"
+            id="email"
+            placeholder="ornek@mail.com"
+            required
+          />
+          <button type="submit">Teklif Al</button>
+        </form>
+        <p id="message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Nova Studio. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
